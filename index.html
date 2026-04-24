@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Déco Maison – Éléments Décoratifs</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div>
+      <h1>DÉCO MAISON.</h1>
+      <p>Votre boutique d'éléments décoratifs</p>
+    </div>
+    <nav>
+      <a href="#produits">Produits</a>
+      <a href="#a-propos">À propos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ===== BANNIÈRE ===== -->
+  <section class="banniere">
+    <h2>Sublimez votre intérieur</h2>
+    <p>Des pièces uniques pour chaque espace de votre maison.</p>
+    <button class="btn" onclick="document.getElementById('produits').scrollIntoView()">
+      Voir les produits
+    </button>
+  </section>
+
+  <!-- ===== PRODUITS ===== -->
+  <section class="produits" id="produits">
+    <h2>Nos Produits</h2>
+    <div class="grille">
+
+      <!-- Produit 1 -->
+      <div class="carte">
+        <img src="assets/1.jpeg" alt="Vase en céramique" />
+        <h3>Vase en céramique</h3>
+        <p>Fait main, tons naturels</p>
+        <div class="prix">12 500 FCFA</div>
+        <button class="btn">Ajouter au panier</button>
+      </div>
+
+      <!-- Produit 2 -->
+      <div class="carte">
+        <img src="assets/2.jpeg" alt="Bougie parfumée" />
+        <h3>Bougie parfumée</h3>
+        <p>Senteur vanille & bois</p>
+        <div class="prix">5 000 FCFA</div>
+        <button class="btn">Ajouter au panier</button>
+      </div>
+
+      <!-- Produit 3 -->
+      <div class="carte">
+        <img src="assets/3.jpeg" alt="Cadre mural doré" />
+        <h3>Cadre mural doré</h3>
+        <p>30 x 40 cm, finition dorée</p>
+        <div class="prix">18 000 FCFA</div>
+        <button class="btn">Ajouter au panier</button>
+      </div>
+
+      <!-- Produit 4 -->
+      <div class="carte">
+        <img src="assets/4.jpeg" alt="Coussin décoratif" />
+        <h3>Coussin décoratif</h3>
+        <p>Motif géométrique, 45 x 45 cm</p>
+        <div class="prix">7 500 FCFA</div>
+        <button class="btn">Ajouter au panier</button>
+      </div>
+
+      <!-- Produit 5 -->
+      <div class="carte">
+        <img src="assets/5.jpeg" alt="Lampe de table" />
+        <h3>Lampe de table</h3>
+        <p>Abat-jour en lin, pied bois</p>
+        <div class="prix">25 000 FCFA</div>
+        <button class="btn">Ajouter au panier</button>
+      </div>
+
+      <!-- Produit 6 -->
+      <div class="carte">
+        <img src="assets/6.jpeg" alt="Miroir rond" />
+        <h3>Miroir rond</h3>
+        <p>Diamètre 50 cm, bord bambou</p>
+        <div class="prix">15 000 FCFA</div>
+        <button class="btn">Ajouter au panier</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== À PROPOS ===== -->
+  <section class="a-propos" id="a-propos">
+    <h2>À propos de nous</h2>
+    <p>
+      Déco Maison est une boutique spécialisée dans la vente d'éléments décoratifs 
+      soigneusement sélectionnés. Nous croyons que chaque maison mérite d'être belle 
+      et accueillante. Tous nos produits sont choisis pour leur qualité et leur style.
+    </p>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <h2>Nous contacter</h2>
+    <form>
+      <input type="text" placeholder="Votre nom" />
+      <input type="email" placeholder="Votre email" />
+      <textarea placeholder="Votre message..."></textarea>
+      <button type="submit" class="btn">Envoyer</button>
+    </form>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>&copy; 2025 Déco Maison – Tous droits réservés</p>
+  </footer>
+
+</body>
+</html>
