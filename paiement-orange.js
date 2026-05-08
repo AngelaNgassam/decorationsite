@@ -1,3 +1,3 @@
 function payerOrange(montant, telephone){
-     console.log('paiement Orange : ' + montant + ' FCFA vers ' + telephone);
-}
+     let test= "Je teste les commit-msg"
+} 
